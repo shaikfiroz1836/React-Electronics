@@ -6,11 +6,11 @@ function App() {
     <div>
       <Router>
         <Navbar/>
-        <Routes><Route path="/Home" Component={Home} /></Routes>
+        <Routes>
+          <Route path="/Home" Component={Home} />
+        </Routes>
         
       </Router>
-           
-           <Home/>
     </div>
   );
 }
