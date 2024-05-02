@@ -41,16 +41,24 @@ const Navbar = () => {
             <li>
               <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Catogories
+                  Categories
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="/Smartphone">Smartphone</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">
-                    Another action
+                  <Dropdown.Item>
+                    <Link className="dropdown-item" to="/Smartphone">
+                      Smartphone
+                    </Link>
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">
-                    Something else
+                  <Dropdown.Item>
+                    <Link className="dropdown-item" to="/Television">
+                      Television
+                    </Link>
+                  </Dropdown.Item>
+                  <Dropdown.Item>
+                    <Link className="dropdown-item" to="/Microwave">
+                      Microwave
+                    </Link>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
