@@ -18,58 +18,58 @@ const Home = () => {
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active" onclick="window.location.href='./Television.html'">
-                        <img style="height: 599px; width: 899px;" src="./TV_Image.png" class="d-block w-100" alt="Tv1 Image"/>
+                        <img  src="./TV_Image.png" class="d-block w-100" alt="Tv1 Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">49,999/- only</h5>
+                          
                           <p>Limited time period offer for 55 inch Sony TV!</p>
                         </div>
                       </div>
                       <div class="carousel-item" onclick="window.location.href='./smartphones.html'">
-                        <img style="height: 599px; width: 899px;" src="./smartphone2.png" class="d-block w-100" alt="Smartphones Image"/>
+                        <img  src="./smartphone2.png" class="d-block w-100" alt="Smartphones Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">19,999/- only</h5>
+                          
                           <p>Buy the best smartphones at lowest price starting at 19,999 only</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img style="height: 599px; width: 899px;" src="./SmartSpeaker.png" class="d-block w-100" alt="SmartSpeaker Image"/>
+                        <img  src="./SmartSpeaker.png" class="d-block w-100" alt="SmartSpeaker Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">9,999/-</h5>
+                         
                           <p>Buy the best sounded speakers in the market at lowest price</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img style="height: 599px; width: 899px;" src="./microwave2.png" class="d-block w-100" alt="Microwave Oven Image"/>
+                        <img  src="./microwave2.png" class="d-block w-100" alt="Microwave Oven Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">14,999/-</h5>
+                          
                           <p>Buy the best branded Micro Ovens for the aa time lowest price</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img style="height: 599px; width: 899px;" src="./computer2.png" class="d-block w-100" alt="Computer Image"/>
+                        <img  src="./computer2.png" class="d-block w-100" alt="Computer Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">44,999/- Only</h5>
+                         
                           <p>Buy the best budget computers on the current market</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img style="height: 599px; width: 899px;" src="./CC Camers2.png" class="d-block w-100" alt="CC Camera Image"/>
+                        <img  src="./CC Camers2.png" class="d-block w-100" alt="CC Camera Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">35,999/- Only</h5>
+                          
                           <p>Buy the best cameras in the market at all time lowest price</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img style="height: 599px; width: 899px;" src="./PS5-2.png" class="d-block w-100" alt="Ps5 Image"/>
+                        <img  src="./PS5-2.png" class="d-block w-100" alt="Ps5 Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">49,999/-</h5>
+                          
                           <p>Limited PS5 on sale for few days</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img style="height: 599px; width: 899px;" src="./washing2.png" class="d-block w-100" alt="Washing Machine Image"/>
+                        <img  src="./washing2.png" class="d-block w-100" alt="Washing Machine Image"/>
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 style="color: red;">25,999/- to 44,999/-</h5>
+                         
                           <p>Buy the best Washing machines starting from 25,999</p>
                         </div>
                       </div>
