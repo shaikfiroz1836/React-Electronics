@@ -1,13 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useEffect } from 'react';
-// import $ from 'jquery'; // import jQuery
 import Dropdown from "react-bootstrap/Dropdown";
 const Navbar = () => {
-  // useEffect(() => {
-  //     // Initialize dropdown when component mounts
-  //     $('.dropdown-toggle').dropdown();
-  //   }, []);
+ 
   return (
     <div>
       <nav className="navbar bg-dark navbar-expand-lg">
