@@ -71,25 +71,13 @@ const Smartphone = () => {
 
   const navigate = useNavigate();
 
-  function onClickImage(event,obj){
-    console.log("clicked")
-    console.log(obj.PName)
-    if(obj.PName === "Iphone15"){
-      navigate("/Iphone")
-      console.log("called")
-    }
-    else if(obj.PName === "Samsung"){
-      navigate("/samsungs")
-    }
-  }
-
   return (
     <div className="container mt-5">
       <div className="row">
         {a.map((obj) => (
           <div key={obj.id} className="col-lg-4 mb-4">
             <div className="card">
-              <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200}  onClick={(event) => onClickImage(event,obj)}  />
+              <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200} onClick={onClickImage}  />
               <div className="card-body">
                 <h5 className="card-title">{obj.PName}</h5>
                 <p className="card-text">Rating: {obj.Rate}</p>
@@ -106,4 +94,8 @@ const Smartphone = () => {
 export default Smartphone
 
 
-
+function onClickImage(obj){
+  if(obj.PName == "Iphone15"){
+    
+  }
+}
