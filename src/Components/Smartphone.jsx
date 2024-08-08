@@ -28,11 +28,19 @@ let a=[
     
   },
   {
-    "id": 3,
-    "PName": "Oneplus",
+    "id": 1,
+    "PName": "Iphone15",
     "Rate": 4.7,
     "Price": 100000,
-    "img":"/Photos/oneplus-12.png"
+    "img":"/Photos/Iphone15promax.png"
+    
+  },
+  {
+    "id": 2,
+    "PName": "Samsung",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
     
   },
   {
@@ -44,20 +52,70 @@ let a=[
     
   },
   {
+    "id": 1,
+    "PName": "Iphone15",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Iphone15promax.png"
+    
+  },
+  {
+    "id": 2,
+    "PName": "Samsung",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
+    
+  },
+  {
     "id": 3,
     "PName": "Oneplus",
     "Rate": 4.7,
     "Price": 100000,
     "img":"/Photos/oneplus-12.png"
     
-  },{
+  },
+  {
+    "id": 1,
+    "PName": "Iphone15",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Iphone15promax.png"
+    
+  },
+  {
+    "id": 2,
+    "PName": "Samsung",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
+    
+  },
+  {
     "id": 3,
     "PName": "Oneplus",
     "Rate": 4.7,
     "Price": 100000,
     "img":"/Photos/oneplus-12.png"
     
-  },{
+  },
+  {
+    "id": 1,
+    "PName": "Iphone15",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Iphone15promax.png"
+    
+  },
+  {
+    "id": 2,
+    "PName": "Samsung",
+    "Rate": 4.7,
+    "Price": 100000,
+    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
+    
+  },
+  {
     "id": 3,
     "PName": "Oneplus",
     "Rate": 4.7,
