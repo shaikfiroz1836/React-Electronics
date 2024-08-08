@@ -10,6 +10,7 @@ const Home = () => {
         App.Tech Inside An App.Tech Inside An App.Tech Inside An App.Tech Inside
         An App.Tech Inside An App.
       </marquee>
+      {/* <h1>Lorem ipsum dolor sit amet.</h1> */}
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">

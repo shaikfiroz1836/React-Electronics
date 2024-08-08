@@ -1,0 +1,16 @@
+
+.img {
+    background-image: url("/Photos/Electronics2.png"); /* Adjust the path to your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the background image to cover the entire viewport height */
+}
+
+.transparent-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the last value (0.8) for transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formstyle{
+  margin-top: 34px;
+}

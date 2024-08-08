@@ -66,6 +66,10 @@ const Navbar = () => {
             >
               Search
             </button>
+
+            <Link className="nav-link text-white" to="/Login">
+                Login <span className="sr-only">(current)</span>
+              </Link>
           </form>
         </div>
       </nav>

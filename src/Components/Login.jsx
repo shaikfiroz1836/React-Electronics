@@ -10,11 +10,22 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className='contrainer-fluid'  style={{ 
+      backgroundImage: `url("/Photos/Electronics2.png")`,
+      backgroundSize: 'cover', 
+    backgroundPosition: 'center', 
+    backgroundRepeat: 'no-repeat', 
+    height: '100vh', 
+    width: '100vw',
+    position: 'fixed', 
+    top: 0,
+    left: 0 
+  }} >
       <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
         <a href="#" className="navbar-brand">Electronics</a>
       </nav>
       <br />
+      {/* <img src="/Photos/Electronics2.png" alt="" /> */}
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
