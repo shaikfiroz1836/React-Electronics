@@ -8,6 +8,7 @@ import Iphone15 from "./Components/Iphone15";
 import Samsungs from "./Components/Samsungs";
 import Television from "./Components/Television";
 import Login from "./Components/Login";
+import './App.css';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

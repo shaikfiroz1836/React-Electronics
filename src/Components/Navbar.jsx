@@ -42,17 +42,17 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
 
               <Dropdown.Menu>
                 <Dropdown.Item>
-                  <Link className="dropdown-item" to="/Smartphone">
+                  <Link  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} dropdown-item`} to="/Smartphone">
                     Smartphone
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <Link className="dropdown-item" to="/Television">
+                  <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} dropdown-item`} to="/Television">
                     Television
                   </Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <Link className="dropdown-item" to="/Microwave">
+                  <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} dropdown-item`} to="/Microwave">
                     Microwave
                   </Link>
                 </Dropdown.Item>

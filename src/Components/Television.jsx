@@ -124,7 +124,7 @@ let a=[
         
       }
   ];
-  const Television = () => {
+  const Television = ({ isDarkMode, toggleTheme }) => {
   
     const navigate = useNavigate();
   
@@ -148,9 +148,9 @@ let a=[
               <div className="card">
                 <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200}  onClick={(event) => onClickImage(event,obj)}  />
                 <div className="card-body">
-                  <h5 className="card-title">{obj.PName}</h5>
-                  <p className="card-text">Rating: {obj.Rate}</p>
-                  <p className="card-text">Price: ₹{obj.Price}</p>
+                <h5 className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-title`}>{obj.PName}</h5>
+                <p  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Rating: {obj.Rate}</p>
+                <p  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Price: ₹{obj.Price}</p>
                 </div>
               </div>
             </div>
