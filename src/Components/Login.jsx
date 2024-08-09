@@ -6,7 +6,7 @@ const Login = () => {
     // You can perform any necessary login logic here
 
     // Redirect to the home page
-    window.location.href = './home.html';
+    window.location.href = './Home';
   };
 
   return (
@@ -21,8 +21,8 @@ const Login = () => {
     top: 0,
     left: 0 
   }} >
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <a href="#" className="navbar-brand">Electronics</a>
+      <nav className="navbar navbar-dark bg-transparent navbar-expand-lg">
+        <a href="#" className="navbar-brand">Urbanmart</a>
       </nav>
       <br />
       {/* <img src="/Photos/Electronics2.png" alt="" /> */}
@@ -43,7 +43,7 @@ const Login = () => {
                       <input type="password" className="form-control" name="password" />
                     </div>
                     <input type="submit" value="Login" className="btn btn-success" id="loginBtn" />
-                    <input type="button" value="Sign Up" className="btn btn-success" onClick={() => {window.location.href = './Register.html'}} /> <br />
+                    <input type="button" value="Sign Up" className="btn btn-success ml-2" onClick={() => {window.location.href = './Register.html'}} /> <br />
                     <a className="nav-link" onClick={() => {window.location.href = './ForgotPass.html'}}>Forgot Password?</a>
                   </form>
                 </div>

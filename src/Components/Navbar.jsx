@@ -5,10 +5,25 @@ const Navbar = () => {
  
   return (
     <div>
-      <nav className="navbar bg-dark navbar-expand-lg">
-        <Link className="navbar-brand text-white" to="/">
+      {/* <nav className="navbar bg-dark navbar-expand-lg"> */}
+        {/* <Link className="navbar-brand text-white" to="/">
           Electronics
+        </Link> */}
+        {/* <Link className="navbar-brand text-white" to="/">
+          <img height={150} width={150} src="/Photos/LOGO/Urbanmart3-NOBG.png" alt="Urbanmart3-NOBG Image"/>
+        </Link> */}
+        
+        <nav className="navbar bg-dark navbar-expand-lg" style={{ padding: '10px 15px' }}>
+        <Link className="navbar-brand text-white" to="/" style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{ height: 50, width: 50 }}>
+            <img
+              src="/Photos/LOGO/Urbanmart3-NOBG.png"
+              alt="Urbanmart3-NOBG Image"
+              style={{ height: '100%', width: '100%', objectFit: 'contain' }}
+            />
+          </div>
         </Link>
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -67,9 +82,9 @@ const Navbar = () => {
               Search
             </button>
 
-            <Link className="nav-link text-white" to="/Login">
+            {/* <Link className="nav-link text-white" to="/Login">
                 Login <span className="sr-only">(current)</span>
-              </Link>
+              </Link> */}
           </form>
         </div>
       </nav>
