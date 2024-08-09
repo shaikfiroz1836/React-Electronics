@@ -21,7 +21,7 @@ const Login = () => {
     top: 0,
     left: 0 
   }} >
-      <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <a href="#" className="navbar-brand">Electronics</a>
       </nav>
       <br />
