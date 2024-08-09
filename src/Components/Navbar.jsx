@@ -67,7 +67,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
         </ul>
         <form className="form-inline my-2 my-lg-0">
           <button
-            className={`btn ${isDarkMode ? 'btn-outline-light' : 'btn-outline-dark'} my-2 my-sm-0`}
+            className={`btn ${isDarkMode ? 'btn-outline-light' : 'btn-outline-dark'} my-2 my-sm-0 ml-1`}
             type="submit"
           >
             Search

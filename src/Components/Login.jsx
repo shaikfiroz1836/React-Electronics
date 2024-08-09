@@ -1,31 +1,27 @@
 import React from 'react';
 
-const Login = () => {
+const Login = ({ isDarkMode, toggleTheme }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    // You can perform any necessary login logic here
-
-    // Redirect to the home page
     window.location.href = './Home';
   };
 
   return (
-    <div className='contrainer-fluid'  style={{ 
+    <div className='container-fluid' style={{ 
       backgroundImage: `url("/Photos/Electronics2.png")`,
       backgroundSize: 'cover', 
-    backgroundPosition: 'center', 
-    backgroundRepeat: 'no-repeat', 
-    height: '100vh', 
-    width: '100vw',
-    position: 'fixed', 
-    top: 0,
-    left: 0 
-  }} >
-      <nav className="navbar navbar-dark bg-transparent navbar-expand-lg">
-        <a href="#" className="navbar-brand">Urbanmart</a>
+      backgroundPosition: 'center', 
+      backgroundRepeat: 'no-repeat', 
+      height: '100vh', 
+      width: '100vw',
+      position: 'fixed', 
+      top: 0,
+      left: 0 
+    }}>
+      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'transparent' }}>
+        <a href="#" className="navbar-brand" style={{ color: isDarkMode ? 'white' : 'black' }}>Urbanmart</a>
       </nav>
       <br />
-      {/* <img src="/Photos/Electronics2.png" alt="" /> */}
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
