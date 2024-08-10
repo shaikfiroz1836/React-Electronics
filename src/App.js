@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Smartphone from "./Components/Smartphones/Smartphone";
 import Iphone15 from "./Components/Smartphones/Iphone15";
 import Samsungs from "./Components/Smartphones/Samsungs";
+import Oneplus from "./Components/Smartphones/Oneplus";
 import Television from "./Components/Television/Television";
 import Login from "./Components/Login";
 import './App.css';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Television" Component={Television} />
           <Route path="/Iphone" Component={Iphone15} />
           <Route path="/samsungs" Component={Samsungs} />
+          <Route path="/Oneplus" Component={Oneplus} />
           <Route path="/Login" element={<Login onLogin={handleLogin} />} />
         </Routes>
       </Router>

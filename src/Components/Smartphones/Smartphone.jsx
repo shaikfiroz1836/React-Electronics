@@ -115,6 +115,9 @@ const Smartphone = ({ isDarkMode, toggleTheme }) => {
     else if(obj.PName === "Samsung"){
       navigate("/samsungs")
     }
+    else if(obj.PName === "Oneplus"){
+      navigate("/Oneplus")
+    }
   }
 
   return (
