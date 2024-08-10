@@ -28,51 +28,27 @@ let a=[
     
   },
   {
-    "id": 1,
-    "PName": "Iphone15",
+    "id": 4,
+    "PName": "Realme",
     "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/Iphone15promax.png"
+    "Price": 15000,
+    "img":"/Photos/Realme Images/realme-gt-6-colour-variants.png"
     
   },
   {
-    "id": 2,
-    "PName": "Samsung",
+    "id": 5,
+    "PName": "Oppo",
     "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
+    "Price": 20000,
+    "img":"/Photos/Oppo Images/find-n3-flip.png"
     
   },
   {
-    "id": 3,
-    "PName": "Oneplus",
+    "id": 6,
+    "PName": "Motorola",
     "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/oneplus-12.png"
-    
-  },
-  {
-    "id": 1,
-    "PName": "Iphone15",
-    "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/Iphone15promax.png"
-    
-  },
-  {
-    "id": 2,
-    "PName": "Samsung",
-    "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
-    
-  },
-  {
-    "id": 3,
-    "PName": "Oneplus",
-    "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/oneplus-12.png"
+    "Price": 50000,
+    "img":"/Photos/Moto Images/motorola_edge_50_ultra.png"
     
   },
   {
@@ -100,27 +76,27 @@ let a=[
     
   },
   {
-    "id": 1,
-    "PName": "Iphone15",
+    "id": 4,
+    "PName": "Realme",
     "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/Iphone15promax.png"
+    "Price": 15000,
+    "img":"/Photos/Realme Images/realme-gt-6-colour-variants.png"
     
   },
   {
-    "id": 2,
-    "PName": "Samsung",
+    "id": 5,
+    "PName": "Oppo",
     "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/Samsung-Galaxy-S24-Ultra.png"
+    "Price": 20000,
+    "img":"/Photos/Oppo Images/find-n3-flip.png"
     
   },
   {
-    "id": 3,
-    "PName": "Oneplus",
+    "id": 6,
+    "PName": "Motorola",
     "Rate": 4.7,
-    "Price": 100000,
-    "img":"/Photos/oneplus-12.png"
+    "Price": 50000,
+    "img":"/Photos/Moto Images/motorola_edge_50_ultra.png"
     
   }
 

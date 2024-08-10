@@ -7,7 +7,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
   return (
     <nav className="navbar navbar-expand-lg" style={{ backgroundColor: isDarkMode ? '#333' : '#f8f9fa' }}>
       <Link className={`navbar-brand ${isDarkMode ? 'text-white' : 'text-dark'}`} to="/">
-        Electronics
+        Urbanmart
       </Link>
       
       <button

@@ -18,9 +18,19 @@ const Login = ({ isDarkMode, toggleTheme }) => {
       top: 0,
       left: 0 
     }}>
-      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'transparent' }}>
-        <a href="#" className="navbar-brand" style={{ color: isDarkMode ? 'white' : 'black' }}>Urbanmart</a>
+      <nav
+        className="navbar navbar-transparent navbar-expand-lg"
+        style={{ backgroundColor: 'transparent' }}
+      >
+        <a
+          href="#"
+          className="navbar-brand"
+          style={{ color: isDarkMode ? 'white' : 'black' }}
+        >
+          Urbanmart
+        </a>
       </nav>
+
       <br />
       <div className="container">
         <div className="row">

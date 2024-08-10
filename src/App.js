@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Smartphone from "./Components/Smartphone";
-import Iphone15 from "./Components/Iphone15";
-import Samsungs from "./Components/Samsungs";
-import Television from "./Components/Television";
+import Smartphone from "./Components/Smartphones/Smartphone";
+import Iphone15 from "./Components/Smartphones/Iphone15";
+import Samsungs from "./Components/Smartphones/Samsungs";
+import Television from "./Components/Television/Television";
 import Login from "./Components/Login";
 import './App.css';
 
