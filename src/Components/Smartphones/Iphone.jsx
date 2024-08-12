@@ -100,7 +100,7 @@ let a=[
   }
 
 ];
-const Iphone15 = ({ isDarkMode, toggleTheme }) => {
+const Iphone = ({ isDarkMode, toggleTheme }) => {
 
   const navigate = useNavigate();
 
@@ -131,6 +131,8 @@ const Iphone15 = ({ isDarkMode, toggleTheme }) => {
                 <h5 className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-title`}>{obj.PName}</h5>
                 <p  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Rating: {obj.Rate}</p>
                 <p  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Price: ₹{obj.Price}</p>
+                <button className='btn btn-warning'>Add To Cart</button>
+                <button className='btn btn-warning ml-2'>BUY</button>
               </div>
             </div>
           </div>
@@ -140,7 +142,4 @@ const Iphone15 = ({ isDarkMode, toggleTheme }) => {
   )
 }
 
-export default Iphone15
-
-
-
+export default Iphone
