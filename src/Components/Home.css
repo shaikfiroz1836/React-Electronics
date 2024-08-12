@@ -1,4 +1,26 @@
 .carousel .carousel-item {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
+  .marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #17a2b8; /* Bootstrap's 'bg-info' color */
+    color: white; /* Text color */
+    white-space: nowrap;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    padding-left: 100%; /* Start the text off-screen */
+    animation: marquee 40s linear infinite; /* Adjust timing as needed */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
   

@@ -1,14 +1,19 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import './Home.css'
+import "./Home.css";
 
 const Home = ({ isDarkMode, toggleTheme }) => {
   return (
     <div>
-
-      <marquee direction="scroll" className="infinite bg-info text-white">
-        Tech Inside An App. Tech Inside An App. Tech Inside An App.
-      </marquee>
+      <div className="marquee-container">
+        <div className="marquee-content">
+          Welcome to UrbanMart, your one-stop destination for all your shopping
+          needs! We offer a wide range of products, from the latest electronics
+          to trendy fashion and everyday essentials. At UrbanMart, we are
+          committed to providing you with top-quality items at unbeatable
+          prices.
+        </div>
+      </div>
 
       <Carousel>
         <Carousel.Item>
@@ -124,8 +129,16 @@ const Home = ({ isDarkMode, toggleTheme }) => {
                 className="card-img-top"
                 alt="Iphone 15 pro max Natural Titanium Image"
               />
-              <div className={`${isDarkMode ? 'text-white' : 'text-dark'} card-body`}>
-                <h5 className={`${isDarkMode ? 'text-white' : 'text-dark'} card-title`}>
+              <div
+                className={`${
+                  isDarkMode ? "text-white" : "text-dark"
+                } card-body`}
+              >
+                <h5
+                  className={`${
+                    isDarkMode ? "text-white" : "text-dark"
+                  } card-title`}
+                >
                   Iphone 15 pro max Natural Titanium
                 </h5>
                 <p className="card-text">Buy at the lowest Price</p>
@@ -142,8 +155,20 @@ const Home = ({ isDarkMode, toggleTheme }) => {
                 alt="Samsung S24 Ultra Image"
               />
               <div className="card-body">
-                <h5 className={`${isDarkMode ? 'text-white' : 'text-dark'} card-title`}>Samsung S24 Ultra</h5>
-                <p className={`${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Buy at the lowest Price</p>
+                <h5
+                  className={`${
+                    isDarkMode ? "text-white" : "text-dark"
+                  } card-title`}
+                >
+                  Samsung S24 Ultra
+                </h5>
+                <p
+                  className={`${
+                    isDarkMode ? "text-white" : "text-dark"
+                  } card-text`}
+                >
+                  Buy at the lowest Price
+                </p>
               </div>
             </div>
           </div>
@@ -157,8 +182,20 @@ const Home = ({ isDarkMode, toggleTheme }) => {
                 alt="Oneplus 12 green Image"
               />
               <div className="card-body">
-                <h5 className={`${isDarkMode ? 'text-white' : 'text-dark'} card-body`}>Oneplus 12 Green</h5>
-                <p className={`${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Buy at the lowest Price</p>
+                <h5
+                  className={`${
+                    isDarkMode ? "text-white" : "text-dark"
+                  } card-body`}
+                >
+                  Oneplus 12 Green
+                </h5>
+                <p
+                  className={`${
+                    isDarkMode ? "text-white" : "text-dark"
+                  } card-text`}
+                >
+                  Buy at the lowest Price
+                </p>
               </div>
             </div>
           </div>
