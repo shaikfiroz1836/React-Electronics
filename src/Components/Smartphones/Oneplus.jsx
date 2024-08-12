@@ -110,7 +110,6 @@ const Oneplus = ({ isDarkMode, toggleTheme }) => {
         {a.map((obj) => (
           <div key={obj.id} className="col-lg-4 mb-4">
             <div className="card">
-            {/* <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200}  onClick={(event) => onClickImage(event,obj)}  /> */}
             <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200}  />
               <div className="card-body">
                 <h5 className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-title`}>{obj.PName}</h5>
