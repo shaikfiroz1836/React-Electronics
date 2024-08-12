@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 let a=[
   {
     "id": 1,
-    "PName": "Iphone15",
+    "PName": "Iphone",
     "Rate": 4.7,
     "Price": 100000,
     "img":"/Photos/Iphone15promax.png"
@@ -53,7 +53,7 @@ let a=[
   },
   {
     "id": 1,
-    "PName": "Iphone15",
+    "PName": "Iphone",
     "Rate": 4.7,
     "Price": 100000,
     "img":"/Photos/Iphone15promax.png"
@@ -108,7 +108,7 @@ const Smartphone = ({ isDarkMode, toggleTheme }) => {
   function onClickImage(event,obj){
     console.log("clicked")
     console.log(obj.PName)
-    if(obj.PName === "Iphone15"){
+    if(obj.PName === "Iphone"){
       navigate("/Iphone")
       console.log("called")
     }
@@ -117,6 +117,15 @@ const Smartphone = ({ isDarkMode, toggleTheme }) => {
     }
     else if(obj.PName === "Oneplus"){
       navigate("/Oneplus")
+    }
+    else if(obj.PName === "Motorola"){
+      navigate("/Moto")
+    }
+    else if(obj.PName === "Oppo"){
+      navigate("/Oppo")
+    }
+    else if(obj.PName === "Realme"){
+      navigate("/Realme")
     }
   }
 

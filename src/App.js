@@ -4,9 +4,12 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Smartphone from "./Components/Smartphones/Smartphone";
-import Iphone15 from "./Components/Smartphones/Iphone15";
+import Iphone from "./Components/Smartphones/Iphone";
 import Samsungs from "./Components/Smartphones/Samsungs";
 import Oneplus from "./Components/Smartphones/Oneplus";
+import Moto from "./Components/Smartphones/Moto";
+import Oppo from "./Components/Smartphones/Oppo";
+import Realme from "./Components/Smartphones/Realme";
 import Television from "./Components/Television/Television";
 import Login from "./Components/Login";
 import './App.css';
@@ -37,9 +40,12 @@ function App() {
           <Route path="/About" Component={About} />
           <Route path="/Smartphone" Component={Smartphone} />
           <Route path="/Television" Component={Television} />
-          <Route path="/Iphone" Component={Iphone15} />
+          <Route path="/Iphone" Component={Iphone} />
           <Route path="/samsungs" Component={Samsungs} />
           <Route path="/Oneplus" Component={Oneplus} />
+          <Route path="/Moto" Component={Moto} />
+          <Route path="/Oppo" Component={Oppo} />
+          <Route path="/Realme" Component={Realme} />
           <Route path="/Login" element={<Login onLogin={handleLogin} />} />
         </Routes>
       </Router>
