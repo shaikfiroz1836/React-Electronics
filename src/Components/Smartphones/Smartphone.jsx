@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 let a=[
@@ -106,11 +106,11 @@ const Smartphone = ({ isDarkMode, toggleTheme }) => {
   const navigate = useNavigate();
 
   function onClickImage(event,obj){
-    console.log("clicked")
-    console.log(obj.PName)
+    // console.log("clicked")
+    // console.log(obj.PName)
     if(obj.PName === "Iphone"){
       navigate("/Iphone")
-      console.log("called")
+      // console.log("called")
     }
     else if(obj.PName === "Samsung"){
       navigate("/samsungs")
