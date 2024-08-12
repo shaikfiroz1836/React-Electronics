@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import './Home.css'
 
 const Home = ({ isDarkMode, toggleTheme }) => {
   return (
