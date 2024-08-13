@@ -23,81 +23,106 @@ let a=[
     "id": 3,
     "PName": "REALME 10 PRO (RAINBOW)",
     "Rate": 4.7,
-    "Price": 65000,
+    "Price": 19000,
     "img":"/Photos/Realme Images/realme-10-pro.png"
     
   },
   {
     "id": 4,
-    "PName": "ONEPLUS 9 PRO (SILVER)",
+    "PName": "REALME NEO GT 5T (VIOLET)",
     "Rate": 4.7,
-    "Price": 45000,
-    "img":"/Photos/Oneplus Images/oneplus9pro.png"
+    "Price": 20000,
+    "img":"/Photos/Realme Images/realmeneogt5t.png"
     
   },
   {
     "id": 5,
-    "PName": "ONEPLUS 9 (PURPLE)",
+    "PName": "REALME GT NEO GT 3T (WHITE)",
     "Rate": 4.7,
-    "Price": 40000,
-    "img":"/Photos/Oneplus Images/oneplus9.png"
+    "Price": 15000,
+    "img":"/Photos/Realme Images/realme-GT-Neo-3T.png"
     
   },
   {
-    "id": 6,
-    "PName": "ONEPLUS 10 PRO (GREEN)",
+    "id": 1,
+    "PName": "REALME 12 (BLUE)",
     "Rate": 4.7,
-    "Price": 50000,
-    "img":"/Photos/Oneplus Images/oneplus-10-pro.png"
+    "Price": 25000,
+    "img":"/Photos/Realme Images/realme-12-pro-5g.png"
     
   },
   {
-    "id": 7,
-    "PName": "ONEPLUS 7 PRO (ALMOND - SPECIAL COLOR)", 
+    "id": 2,
+    "PName": "REALME 11 PRO (WHITE VEGAN)",
     "Rate": 4.7,
-    "Price": 50000,
-    "img":"/Photos/Oneplus Images/oneplus-7-pro.png"
+    "Price": 20000,
+    "img":"/Photos/Realme Images/realme-11-pro.png"
     
   },
   {
-    "id": 8,
-    "PName": "ONEPLUS 8 (RAINBOW SILVER)",
+    "id": 3,
+    "PName": "REALME 10 PRO (RAINBOW)",
     "Rate": 4.7,
-    "Price": 55000,
-    "img":"/Photos/Oneplus Images/oneplus8.png"
-    
-  },{
-    "id": 9,
-    "PName": "ONEPLUS 7T (BLUE)",
-    "Rate": 4.7,
-    "Price": 35000,
-    "img":"/Photos/Oneplus Images/oneplus7t.png"
+    "Price": 19000,
+    "img":"/Photos/Realme Images/realme-10-pro.png"
     
   },
   {
-    "id": 10,
-    "PName": "ONEPLUS 12 (GREEN)",
+    "id": 4,
+    "PName": "REALME NEO GT 5T (VIOLET)",
     "Rate": 4.7,
-    "Price": 65000,
-    "img":"/Photos/Oneplus Images/oneplus-12-Green.png"
+    "Price": 20000,
+    "img":"/Photos/Realme Images/realmeneogt5t.png"
     
   },
   {
-    "id": 11,
-    "PName": "ONEPLUS 12 (WHITE)",
+    "id": 5,
+    "PName": "REALME GT NEO GT 3T (WHITE)",
     "Rate": 4.7,
-    "Price": 65000,
-    "img":"/Photos/Oneplus Images/oneplus-12-White.png"
+    "Price": 15000,
+    "img":"/Photos/Realme Images/realme-GT-Neo-3T.png"
     
   },
   {
-    "id": 12,
-    "PName": "ONEPLUS 12 (BLACK)",
+    "id": 1,
+    "PName": "REALME 12 (BLUE)",
     "Rate": 4.7,
-    "Price": 65000,
-    "img":"/Photos/Oneplus Images/oneplus-12-Black.png"
+    "Price": 25000,
+    "img":"/Photos/Realme Images/realme-12-pro-5g.png"
     
-  }
+  },
+  {
+    "id": 2,
+    "PName": "REALME 11 PRO (WHITE VEGAN)",
+    "Rate": 4.7,
+    "Price": 20000,
+    "img":"/Photos/Realme Images/realme-11-pro.png"
+    
+  },
+  {
+    "id": 3,
+    "PName": "REALME 10 PRO (RAINBOW)",
+    "Rate": 4.7,
+    "Price": 19000,
+    "img":"/Photos/Realme Images/realme-10-pro.png"
+    
+  },
+  {
+    "id": 4,
+    "PName": "REALME NEO GT 5T (VIOLET)",
+    "Rate": 4.7,
+    "Price": 20000,
+    "img":"/Photos/Realme Images/realmeneogt5t.png"
+    
+  },
+  {
+    "id": 5,
+    "PName": "REALME GT NEO GT 3T (WHITE)",
+    "Rate": 4.7,
+    "Price": 15000,
+    "img":"/Photos/Realme Images/realme-GT-Neo-3T.png"
+    
+  },
 
 ];
 const Realme = ({ isDarkMode, toggleTheme }) => {
