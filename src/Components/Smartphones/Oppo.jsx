@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 let a=[
@@ -66,36 +65,37 @@ let a=[
     "Price": 45000,
     "img":"/Photos/Oppo Images/reno12pro_silver.png"
     
-  },{
-    "id": 9,
-    "PName": "ONEPLUS 7T (BLUE)",
+  },
+  {
+    "id": 1,
+    "PName": "OPPO N3 FLIP (GOLD)",
     "Rate": 4.7,
-    "Price": 35000,
-    "img":"/Photos/Oneplus Images/oneplus7t.png"
+    "Price": 85000,
+    "img":"/Photos/Oppo Images/find-n3-flip.png"
     
   },
   {
-    "id": 10,
-    "PName": "ONEPLUS 12 (GREEN)",
+    "id": 2,
+    "PName": "OPPO FIND X6 PRO",
     "Rate": 4.7,
-    "Price": 65000,
-    "img":"/Photos/Oneplus Images/oneplus-12-Green.png"
+    "Price": 100000,
+    "img":"/Photos/Oppo Images/oppo-find-x6-pro.png"
     
   },
   {
-    "id": 11,
-    "PName": "ONEPLUS 12 (WHITE)",
+    "id": 3,
+    "PName": "OPPO RENO 2F (BLACKISH GREEN)",
     "Rate": 4.7,
-    "Price": 65000,
-    "img":"/Photos/Oneplus Images/oneplus-12-White.png"
+    "Price": 15000,
+    "img":"/Photos/Oppo Images/oppo-reno-2f.png"
     
   },
   {
-    "id": 12,
-    "PName": "ONEPLUS 12 (BLACK)",
+    "id": 4,
+    "PName": "OPPO RENO 12 PRO (GREEN)",
     "Rate": 4.7,
-    "Price": 65000,
-    "img":"/Photos/Oneplus Images/oneplus-12-Black.png"
+    "Price": 45000,
+    "img":"/Photos/Oppo Images/oppo-reno-12-pro.png"
     
   }
 

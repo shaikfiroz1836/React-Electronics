@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = ({ isDarkMode, toggleTheme }) => {
   const handleSubmit = (event) => {
@@ -22,13 +23,13 @@ const Login = ({ isDarkMode, toggleTheme }) => {
         className="navbar navbar-transparent bg-transparent navbar-expand-lg"
         style={{ backgroundColor: 'transparent' }}
       >
-        <a
-          href="#"
+        <Link
+          to="#"
           className="navbar-brand bg-transparent"
           style={{ color: isDarkMode ? 'white' : 'black' }}
         >
           Urbanmart
-        </a>
+        </Link>
       </nav>
 
       <br />
