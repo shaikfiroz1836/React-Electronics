@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import AddToCart from "./Components/AddToCart";
 import Smartphone from "./Components/Smartphones/Smartphone";
 import Iphone from "./Components/Smartphones/Iphone";
 import Samsungs from "./Components/Smartphones/Samsungs";
@@ -17,6 +18,7 @@ import './App.css';
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [cartItems, setCartItems] = useState([]);
 
   const handleLogin = () => {
     setIsLoggedIn(true);
@@ -30,22 +32,27 @@ function App() {
     document.body.className = isDarkMode ? "dark-mode" : "light-mode";
   }, [isDarkMode]);
 
+  const addToCart = (item) => {
+    setCartItems((prevItems) => [...prevItems, item]);
+  };
+
   return (
     <div className={isDarkMode ? "dark-mode" : "light-mode"}>
       <Router>
         <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <Routes>
           <Route path="/" element={isLoggedIn ? <Navigate to="/Home" /> : <Login onLogin={handleLogin} />} />
-          <Route path="/Home" Component={Home} />
-          <Route path="/About" Component={About} />
-          <Route path="/Smartphone" Component={Smartphone} />
-          <Route path="/Television" Component={Television} />
-          <Route path="/Iphone" Component={Iphone} />
-          <Route path="/samsungs" Component={Samsungs} />
-          <Route path="/Oneplus" Component={Oneplus} />
-          <Route path="/Moto" Component={Moto} />
-          <Route path="/Oppo" Component={Oppo} />
-          <Route path="/Realme" Component={Realme} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Smartphone" element={<Smartphone addToCart={addToCart} isDarkMode={isDarkMode} />} />
+          <Route path="/Television" element={<Television addToCart={addToCart} isDarkMode={isDarkMode} />} />
+          <Route path="/Iphone" element={<Iphone addToCart={addToCart} isDarkMode={isDarkMode} />} />
+          <Route path="/samsungs" element={<Samsungs addToCart={addToCart} isDarkMode={isDarkMode}/>} />
+          <Route path="/Oneplus" element={<Oneplus addToCart={addToCart} isDarkMode={isDarkMode}/>} />
+          <Route path="/Moto" element={<Moto addToCart={addToCart} isDarkMode={isDarkMode}/>} />
+          <Route path="/Oppo" element={<Oppo addToCart={addToCart} isDarkMode={isDarkMode}/>} />
+          <Route path="/Realme" element={<Realme addToCart={addToCart} isDarkMode={isDarkMode} />} />
+          <Route path="/AddToCart" element={<AddToCart cartItems={cartItems} />} />
           <Route path="/Login" element={<Login onLogin={handleLogin} />} />
         </Routes>
       </Router>

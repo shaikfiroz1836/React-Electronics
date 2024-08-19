@@ -64,7 +64,13 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
               {isDarkMode ? <FaSun color="yellow" /> : <FaMoon color="blue" />}
             </button>
           </li>
+          <li>
+            <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'}`} to="/AddToCart">
+              My Cart
+            </Link>
+          </li>
         </ul>
+        
         <form className="form-inline my-2 my-lg-0">
           <button
             className={`btn ${isDarkMode ? 'btn-outline-light' : 'btn-outline-dark'} my-2 my-sm-0 ml-1`}
@@ -72,6 +78,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
           >
             Search
           </button>
+
         </form>
       </div>
     </nav>

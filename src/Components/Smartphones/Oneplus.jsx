@@ -100,22 +100,22 @@ let a=[
   }
 
 ];
-const Oneplus = ({ isDarkMode, toggleTheme }) => {
+const Oneplus = ({ isDarkMode, toggleTheme, addToCart }) => {
 
   const navigate = useNavigate();
 
   return (
     <div className="container mt-5">
       <div className="row">
-        {a.map((obj) => (
+      {a.map((obj) => (
           <div key={obj.id} className="col-lg-4 mb-4">
-            <div className="card">
-            <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200}  />
+            <div className={`card ${isDarkMode ? 'bg-dark text-white' : 'bg-light text-dark'}`}>
+              <img src={obj.img} className="card-img-top" alt={obj.PName} width={350} height={200} />
               <div className="card-body">
-                <h5 className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-title`}>{obj.PName}</h5>
-                <p  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Rating: {obj.Rate}</p>
-                <p  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} card-text`}>Price: ₹{obj.Price}</p>
-                <button className='btn btn-warning'>Add To Cart</button>
+                <h5 className="card-title">{obj.PName}</h5>
+                <p className="card-text">Rating: {obj.Rate}</p>
+                <p className="card-text">Price: ₹{obj.Price}</p>
+                <button className='btn btn-warning' onClick={() => addToCart(obj)}>Add To Cart</button>
                 <button className='btn btn-warning ml-2'>BUY</button>
               </div>
             </div>
