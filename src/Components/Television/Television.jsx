@@ -109,7 +109,7 @@ let a = [
   },
 ];
 
-const Television = ({ isDarkMode, toggleTheme }) => {
+const Television = ({ isDarkMode, toggleTheme ,addToCart}) => {
   const navigate = useNavigate();
 
   function onClickImage(event, obj) {
@@ -136,6 +136,8 @@ const Television = ({ isDarkMode, toggleTheme }) => {
                 <h5 className={`card-title ${isDarkMode ? 'text-white' : 'text-dark'}`}>{obj.PName}</h5>
                 <p className={`card-text ${isDarkMode ? 'text-white' : 'text-dark'}`}>Rating: {obj.Rate}</p>
                 <p className={`card-text ${isDarkMode ? 'text-white' : 'text-dark'}`}>Price: ₹{obj.Price}</p>
+                <button className='btn btn-warning' onClick={() => addToCart(obj)}>Add To Cart</button>
+                <button className='btn btn-warning ml-2'>BUY</button>
               </div>
             </div>
           </div>

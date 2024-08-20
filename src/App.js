@@ -12,6 +12,7 @@ import Moto from "./Components/Smartphones/Moto";
 import Oppo from "./Components/Smartphones/Oppo";
 import Realme from "./Components/Smartphones/Realme";
 import Television from "./Components/Television/Television";
+import Microwave from "./Components/Microwave/Microwave";
 import Login from "./Components/Login";
 import './App.css';
 
@@ -46,6 +47,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Smartphone" element={<Smartphone addToCart={addToCart} isDarkMode={isDarkMode} />} />
           <Route path="/Television" element={<Television addToCart={addToCart} isDarkMode={isDarkMode} />} />
+          <Route path="/Microwave" element={<Microwave addToCart={addToCart} isDarkMode={isDarkMode} />} />
           <Route path="/Iphone" element={<Iphone addToCart={addToCart} isDarkMode={isDarkMode} />} />
           <Route path="/samsungs" element={<Samsungs addToCart={addToCart} isDarkMode={isDarkMode}/>} />
           <Route path="/Oneplus" element={<Oneplus addToCart={addToCart} isDarkMode={isDarkMode}/>} />

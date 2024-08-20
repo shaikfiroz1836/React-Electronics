@@ -5,81 +5,75 @@ import { FaSun, FaMoon } from "react-icons/fa";
 
 const Navbar = ({ isDarkMode, toggleTheme }) => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: isDarkMode ? '#333' : '#f8f9fa' }}>
-      <Link className={`navbar-brand ${isDarkMode ? 'text-white' : 'text-dark'}`} to="/">
-        Urbanmart
-      </Link>
-      
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
-            <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'}`} to="/Home">
-              Home <span className="sr-only">(current)</span>
-            </Link>
-          </li>
-          <li>
-            <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'}`} to="/About">
-              About
-            </Link>
-          </li>
-          <li>
-            <Dropdown>
-              <Dropdown.Toggle variant={isDarkMode ? "dark" : "light"} id="dropdown-basic">
-                Categories
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu>
-                <Dropdown.Item>
-                  <Link  className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} dropdown-item`} to="/Smartphone">
-                    Smartphone
-                  </Link>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} dropdown-item`} to="/Television">
-                    Television
-                  </Link>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'} dropdown-item`} to="/Microwave">
-                    Microwave
-                  </Link>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </li>
-          <li className="nav-item">
-            <button onClick={toggleTheme} className="btn btn-link">
-              {isDarkMode ? <FaSun color="yellow" /> : <FaMoon color="blue" />}
-            </button>
-          </li>
-          <li>
-            <Link className={`nav-link ${isDarkMode ? 'text-white' : 'text-dark'}`} to="/AddToCart">
-              My Cart
-            </Link>
-          </li>
-        </ul>
+    <nav className={`navbar navbar-expand-lg ${isDarkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">
+          Urbanmart
+        </Link>
         
-        <form className="form-inline my-2 my-lg-0">
-          <button
-            className={`btn ${isDarkMode ? 'btn-outline-light' : 'btn-outline-dark'} my-2 my-sm-0 ml-1`}
-            type="submit"
-          >
-            Search
-          </button>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-        </form>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li className="nav-item active">
+              <Link className="nav-link" to="/Home">
+                Home <span className="sr-only">(current)</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/About">
+                About
+              </Link>
+            </li>
+            <li className="nav-item dropdown">
+              <Dropdown>
+                <Dropdown.Toggle variant={isDarkMode ? "dark" : "light"} id="dropdown-basic">
+                  Categories
+                </Dropdown.Toggle>
+                <Dropdown.Menu style={{ backgroundColor: isDarkMode ? '#333' : '#fff' }}>
+                  <Dropdown.Item as={Link} to="/Smartphone" className={isDarkMode ? 'text-white' : 'text-dark'}>
+                    Smartphone
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/Television" className={isDarkMode ? 'text-white' : 'text-dark'}>
+                    Television
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/Microwave" className={isDarkMode ? 'text-white' : 'text-dark'}>
+                    Microwave
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </li>
+            <li className="nav-item">
+              <button onClick={toggleTheme} className="btn btn-link">
+                {isDarkMode ? <FaSun color="yellow" /> : <FaMoon color="blue" />}
+              </button>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/AddToCart">
+                My Cart
+              </Link>
+            </li>
+          </ul>
+          
+          <form className="d-flex">
+            <input
+              className={`form-control me-2 ${isDarkMode ? 'bg-dark text-white' : 'bg-light text-dark'}`}
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
       </div>
     </nav>
   );
