@@ -48,7 +48,13 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
                     Television
                   </Dropdown.Item>
                   <Dropdown.Item as={Link} to="/Microwave" className={isDarkMode ? 'text-white' : 'text-dark'}>
+                    Speakers
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/Microwave" className={isDarkMode ? 'text-white' : 'text-dark'}>
                     Microwave
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/Microwave" className={isDarkMode ? 'text-white' : 'text-dark'}>
+                    Computers
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
