@@ -17,8 +17,8 @@ const AddToCart = ({ cartItems, isDarkMode }) => {
     <div className={`container ${isDarkMode ? 'bg-dark text-white' : 'bg-light text-dark'}`}>
       <h3>Cart Items</h3>
       {cartItems.length > 0 ? (
-        <table className={`table table-bordered ${isDarkMode ? 'table-dark' : 'table-light'}`}>
-          <thead>
+        <table border={10} className={`table table-bordered ${isDarkMode ? 'table-dark' : 'table-light'}`}>
+          <thead className='bg-warning'>
             <tr>
               <th>#</th>
               <th>Product Name</th>
