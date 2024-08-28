@@ -12,9 +12,9 @@ import Moto from "./Components/Smartphones/Moto";
 import Oppo from "./Components/Smartphones/Oppo";
 import Realme from "./Components/Smartphones/Realme";
 import Television from "./Components/Television/Television";
-import Speakers from "./Components/Speakers/Speakers";
 import Microwave from "./Components/Microwave/Microwave";
-import Computers from "./Components/Computers/Computers";
+import Speakers from './Components/Speakers/Speakers'
+import Computers from './Components/Computers/Computers'
 import Login from "./Components/Login";
 import './App.css';
 
