@@ -20,15 +20,15 @@ const Login = ({ isDarkMode, toggleTheme }) => {
       left: 0 
     }}>
       <nav
-        className="navbar navbar-transparent bg-transparent navbar-expand-lg"
-        style={{ backgroundColor: 'transparent' }}
+        // className="navbar navbar-transparent bg-transparent navbar-expand-lg"
+        // style={{ backgroundColor: 'transparent' }}
       >
         <Link
           to="#"
           className="navbar-brand bg-transparent"
           style={{ color: isDarkMode ? 'white' : 'black' }}
         >
-          Urbanmart
+          E-Electronics
         </Link>
       </nav>
 

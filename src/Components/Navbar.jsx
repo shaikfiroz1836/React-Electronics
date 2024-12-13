@@ -8,7 +8,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
     <nav className={`navbar navbar-expand-lg ${isDarkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          Urbanmart
+        E-Electronics
         </Link>
         
         <button
